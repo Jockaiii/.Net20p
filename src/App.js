@@ -1,7 +1,11 @@
-export const App  = () => {
+import { GreetUser } from "./GreetUser";
+import {Counter} from './Counter'
+
+export const App = () => {
   return (
-  <div>
-    <h1>Yo!</h1>
-  </div>
-  )
-}
+    <div>
+      <GreetUser name="Joakim" age={20} />  
+      <Counter />
+    </div>
+  );
+};
