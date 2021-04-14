@@ -23,7 +23,3 @@ export const Routes = ({children}) => {
         </BrowserRouter>
     )
 }
-
-Routes.propTypes = {
-    children: PropTypes.array,
-  }

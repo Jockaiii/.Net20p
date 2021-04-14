@@ -18,6 +18,7 @@ module.exports = {
 		"react"
 	],
 	"rules": {
+		"react/prop-types": [2, { ignore: ['children'] }],
 		"indent": [
 			"warn",
 			"tab"
